@@ -1,10 +1,9 @@
 .section--top
 {
-    background: url("./images/main.jpg");
+    background: url("./images/fon.jpg");
     height: 1051px;
     background-repeat: no-repeat;
     background-position-x: center;
-    background-size: 100%;
 }
 
 .section--top .text--event
@@ -149,11 +148,11 @@
 {
     margin-bottom: 80px;
 
-    background: url("./images/main.jpg");
+    background: url("./images/fon2.jpg");
     height: 1051px;
     background-repeat: no-repeat;
     background-position-x: center;
-    background-size: 100%;
+
 }
 
 .section--what .what--text--bold
