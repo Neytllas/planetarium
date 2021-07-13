@@ -11,26 +11,17 @@ img
     background-position-x: center;
 }
 
-.section--top .text--event
-{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #FFFFFF;
-}
-
 .section--top .col.col--event
 {
-    margin-top: 80px;
-    margin-bottom: 180px;
+    margin-top: 50px;
+    margin-bottom: 160px;
 }
 
 .ellips
 {
-    margin-right: 37px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .section--top .information--text--tight
@@ -153,8 +144,6 @@ img
     margin-bottom: 80px;
     background-size:cover;
     background: url("./images/fon2.jpg");
-    /* background-repeat: no-repeat; */
-    /* background-position-x: center; */
 
 }
 
@@ -332,30 +321,18 @@ img
 
 .img--int
 {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-
     width: 46px;
     height: 48px;
 }
 
 .img--int--1
 {
-    position: relative;
-    left: 115%;
-    transform: translate(0, 0);
-
     width: 46px;
     height: 48px;
 }
 
 .img--int--3
 {
-    position: relative;
-    right: 25%;
-    transform: translate(0, 0);
-
     width: 46px;
     height: 48px;
 
@@ -536,4 +513,70 @@ img
           left: 50%;
           transform: translate(-50%, 0);
       }
+  }
+
+  @media (max-width: 800px)
+  {
+    .section--top .information--text--bold
+    {
+        font-size: 40px;
+    }
+
+    .section--top .information--text--tight
+    {
+        font-size: 25px;
+    }
+
+    .section--top .col.col--event
+    {
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    .section--about .about--text--bold
+    {
+        font-size: 36px;
+    }
+
+    .section--about .about--text--tight
+    {
+        font-size: 24px;
+    }
+
+    .section--what .what--text--bold
+    {
+        font-size: 36px;
+    }
+
+    .section--what .what--text--tight
+    {
+        font-size: 24px;
+    }
+
+    .section--join .join--text--bold
+    {
+        font-size: 36px;
+    }
+
+    .section--join .join--text--tight
+    {
+        font-size: 24px;
+    }
+
+    .footer .mobile--text
+    {
+        font-size: 30px;
+    }
+
+    .footer .footer--text
+    {
+        font-size: 24px;
+    }
+
+    .footer .img--footer
+    {
+        width: 80px;
+    }
+
+
   }
