@@ -6,23 +6,32 @@ img
 .section--top
 {
     background: url("./images/fon.jpg");
-    height: 1051px;
     background-repeat: no-repeat;
     background-position-x: center;
 }
 
-.section--top .col.col--event
+.section--top .text--event
 {
-    margin-top: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.block-event
+{
+    padding-top: 50px;
     margin-bottom: 160px;
 }
 
 .ellips
 {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
+    margin-right: 37px;
 }
+
 
 .section--top .information--text--tight
 {
@@ -389,6 +398,11 @@ img
         font-size: 60px;
     }
 
+    .section--top .text--event
+    {
+        font-size: 15px;
+    }
+
     .section--top .information--text--tight
     {
         font-size: 30px;
@@ -527,7 +541,7 @@ img
         font-size: 25px;
     }
 
-    .section--top .col.col--event
+    .section--top .block-event
     {
         margin-top: 50px;
         margin-bottom: 80px;
@@ -577,6 +591,4 @@ img
     {
         width: 80px;
     }
-
-
   }
