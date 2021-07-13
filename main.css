@@ -543,7 +543,7 @@ img
 
     .section--top .block-event
     {
-        margin-top: 50px;
+        padding-top: 50px;
         margin-bottom: 80px;
     }
 
@@ -575,6 +575,7 @@ img
     .section--join .join--text--tight
     {
         font-size: 24px;
+        text-align: center;
     }
 
     .footer .mobile--text
