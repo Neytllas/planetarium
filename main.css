@@ -368,6 +368,18 @@ img
     margin-bottom: 120px;
 }
 
+.img--footer-colour
+{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.img--footer-colour:hover 
+  {
+    -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0);
+  }
+
 .anim-img .img--what
   {
     z-index: 1;
@@ -393,6 +405,12 @@ img
 
   @media (max-width: 1400px)
   {
+
+    .ellips
+    {
+        display: none;
+    }
+    
     .section--top .information--text--bold
     {
         font-size: 60px;
